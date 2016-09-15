@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="Zoomable Circle Packing" Description="Zoomable Circle Packing" PageHeight="50000">
+  <Dimension Label="Dimension 1" Initial="Parent" TargetName="Parent" />
+  <Dimension Label="Dimension 2" Initial="Child" TargetName="Child" />
+  <Measurement Label="Measure 1" Initial="Sum(size)"/>
+  	<!--Text Label="Circle Diameter" Type="text" Expression="900"/>-->
+  	<!--Text Label="Show Parent Titles" Type="checkbox" Initial="1" />-->
+    	<!--Text Label="selectBox 1" Type="select" Select="select1,select2,select3" SelectLabel="selectL1,selectL2,selectL3" Expression="selectL3"/>-->
+    <Initiate Name="Chart.Title" value="Zoomable Circle Packing" />
+	<Initiate Name="Caption.Text" Value="Zoomable Circle Packing" />
+  </ExtensionObject>
+
